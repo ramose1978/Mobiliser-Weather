@@ -10,4 +10,12 @@ public class Clouds {
         return all;
     }
 
+    public void setAll(String all) {
+        this.all = all;
+    }
+
+    @Override
+    public String toString() {
+        return "ClassPojo [all = " + all + "]";
+    }
 }
