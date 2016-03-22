@@ -3,6 +3,7 @@ package com.example.nav.navmap.models;
 /**
  * Created by mobiliser on 19/10/16.
  */
+
 public class Root {
     private String id;
 
@@ -60,6 +61,38 @@ public class Root {
 
     public Wind getWind() {
         return wind;
+    }
+
+    public void setWind(Wind wind) {
+        this.wind = wind;
+    }
+
+    public String getCod() {
+        return cod;
+    }
+
+    public void setCod(String cod) {
+        this.cod = cod;
+    }
+
+    public Sys getSys() {
+        return sys;
+    }
+
+    public void setSys(Sys sys) {
+        this.sys = sys;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getBase() {
+        return base;
     }
 
     public void setBase(String base) {

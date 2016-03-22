@@ -1,7 +1,7 @@
 package com.example.nav.navmap.models;
 
 /**
- * Created by mobiliser on 3/10/16.
+ * Created by mobiliser on 19/10/16.
  */
 
 public class Sys {
@@ -16,7 +16,32 @@ public class Sys {
     public String getMessage() {
         return message;
     }
-      public void setCountry(String country) {
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public String getSunset() {
+        return sunset;
+    }
+
+    public void setSunset(String sunset) {
+        this.sunset = sunset;
+    }
+
+    public String getSunrise() {
+        return sunrise;
+    }
+
+    public void setSunrise(String sunrise) {
+        this.sunrise = sunrise;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
         this.country = country;
     }
 
